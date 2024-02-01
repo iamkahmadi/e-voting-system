@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.c-navbar {
+    display: flex;
+    justify-content: space-between;
+    /* background: linear-gradient(120deg, rgb(148, 148, 155), red); */
+    background: #233c7d;
+    padding: 2px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.c-nav-item {
+    color: white;
+}
+
+
+#logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.nav-links {
+    display: flex;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav-links li {
+    list-style: none;
+    padding: 3px;
+    padding-top: 15px;
+    margin: 3px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    border-radius: 5px;
+    background: white;
+    color: black;
+}
+
+.nav-links li a:hover {
+    background: black;
+    color: white;
+}
+
+
+.c-nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-nav-buttons a {
+    margin: 3px;
+    padding: 10px;
+    width: 80px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    background: white;
+    text-align: center;
+}
+
+.c-nav-buttons a:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.container-fluid {
+    height: 430px;
+    background: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-fluid h4 {
+    font-size: 35px;
+}
+
+.container-fluid h1 {
+    font-size: 40px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.c-home-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px 2px #746565;
+    border-top: 1px solid rgb(165, 159, 159);
+    border-left: 1px solid rgb(165, 159, 159);
+    background: #233c7d;
+    color: white;
+}
+
+.c-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px 2px #746565;
+    border-top: 1px solid rgb(165, 159, 159);
+    border-left: 1px solid rgb(165, 159, 159);
+}
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+
+.card {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 4px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+.card .card-text {
+    font-family: monospace;
+    padding: 7px;
+    letter-spacing: 1.5px;
+    margin: 8px;
+}
+
+
+.card .card-text h3{
+    font-weight: bold;
+}
+
+.card .card-text p{
+    opacity: 0.7;
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    padding: 30px;
+}
+
+.footer * {
+    color: black;
+    opacity: 0.8;
+    font-size: 110%;
+}
+
+
+.footer>div {
+    margin: 20px;
+    padding: 10px;
+}
+
+.about {
+    width: 40%;
+}
+
+.site-links {
+    width: 30%;
+}
+
+.our-sites {
+    width: 30%;
+}
